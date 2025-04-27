@@ -1,6 +1,6 @@
 import React, { useEffect, useReducer, useRef } from "react";
 import axios from "axios";
-const ACCESS_KEY = "l0wmLN0Sd538sl8B2O0m6QsUqZxa-pPe4fweg7RoBx0";
+const ACCESS_KEY =  import.meta.env.VITE_UNSPLASH_ACCESS_KEY;
 
 const initialState = {
   loading: false,
